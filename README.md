@@ -4,7 +4,7 @@ Two AWS Lambda functions that capture AWS Glue job run metadata into RDS Postgre
 ## Repository structure
 
 ```
-glue-job-ops-monitor/
+aws-glue-job-metrics/
 ├── lambda_function.py        # Lambda 1 — Glue state ingest → RDS
 ├── lambda_email_report.py    # Lambda 2 — Daily email report via SMTP
 └── README.md
